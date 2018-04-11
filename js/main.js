@@ -1,12 +1,7 @@
 var ctx;
-var width = 1000; // Default value is 1000
-var height = 1700; // Default value is 1700
 var ball = {};
 var camera = {};
-gravity = 5; // Default value is 5
-intervalTimeout = 25; // Default value is 25
 var intervalId;
-var debug = true; // Change it to false to remove the grid
 
 
 // When all the HTML is loaded
@@ -114,7 +109,7 @@ function update() {
   }
   
   var newBall = {
-    radius: 50,
+    radius: 50,     
     x: ball.x + ball.vx,
     y: ball.y + ball.vy,
     vx: ball.vx*0.9,
