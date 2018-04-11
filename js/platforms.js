@@ -71,6 +71,16 @@ var platforms = [
     y: -4000,
     width: 200
   },
+  {
+    x: 200,
+    y: -4500,
+    width: 200
+  },
+  {
+    x: 500,
+    y: -5000,
+    width: 200
+  },
 ]
 
 // // Example of random generation of platforms
